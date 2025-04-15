@@ -6,4 +6,7 @@
 <div [appCustom]="{ color: 'blue', textAlign: 'center' }">
   {{ 5000 | currency : "USD" }}
 </div>
+<div [appCustom]="{ color: 'purple', textAlign: 'left' }">
+  {{ 'salma' | uppercase | custom: '*'}}
+</div>
 <router-outlet></router-outlet>
