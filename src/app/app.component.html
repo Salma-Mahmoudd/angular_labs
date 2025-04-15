@@ -1,4 +1,9 @@
 <app-header></app-header>
 <div [appCustom]="{ color: 'black', textAlign: 'left' }">Custom Directive</div>
-<div [appCustom]="{ color: 'red', textAlign: 'right' }">Custom Directive</div>
+<div [appCustom]="{ color: 'red', textAlign: 'right' }">
+  {{ "Custom Directive" | uppercase }}
+</div>
+<div [appCustom]="{ color: 'blue', textAlign: 'center' }">
+  {{ 5000 | currency : "USD" }}
+</div>
 <router-outlet></router-outlet>

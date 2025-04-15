@@ -24,7 +24,6 @@ export class CustomDirective {
     nativeElement.style.marginBottom = '10px';
     nativeElement.style.textAlign = 'center';
     nativeElement.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
-    nativeElement.style.textTransform = 'uppercase';
     nativeElement.style.letterSpacing = '20px';
     nativeElement.style.backgroundImage =
       'linear-gradient(to right, #4facfe, #00f2fe)';
