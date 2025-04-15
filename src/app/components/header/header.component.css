@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px 50px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  background-color: #dfdedec6;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+li:hover:not(.active) {
+  background-color: #cfcfcfc6;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+li.active {
+  font-weight: bold;
+  background-color: #64625c;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  cursor: default;
+}
