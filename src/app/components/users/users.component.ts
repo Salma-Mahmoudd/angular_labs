@@ -15,13 +15,11 @@ export class UsersComponent {
     name: string;
     username: string;
     email: string;
-    phone: string;
   }[] = [];
 
   constructor(private userService: UsersService) {}
 
   ngOnInit() {
-    // console.log(this.userService.getUsers());
     this.userService.getUsers().subscribe({
       next: (data: any) => {
         this.users = data.map((user: any) => ({
@@ -29,7 +27,6 @@ export class UsersComponent {
           name: user.name,
           username: user.username,
           email: user.email,
-          phone: user.phone,
         }));
       },
       error: (error) => {
