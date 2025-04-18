@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { UsersService } from '../../services/users.service';
-import { RouterModule } from '@angular/router';
+import { UserItemComponent } from '../user-item/user-item.component';
 
 @Component({
   selector: 'app-users',
-  imports: [RouterModule],
+  imports: [UserItemComponent],
   providers: [UsersService],
   templateUrl: './users.component.html',
   styleUrl: './users.component.css',
