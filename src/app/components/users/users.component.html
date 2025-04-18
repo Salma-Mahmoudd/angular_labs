@@ -1,5 +1,8 @@
+<div class="btn-container">
+  <button type="button" routerLink="/users/add">Add User</button>
+</div>
 <section class="users-container">
   @for (user of users; track user.id) {
-    <app-user-item [user]="user"></app-user-item>
+  <app-user-item [user]="user"></app-user-item>
   }
 </section>

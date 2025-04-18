@@ -1,0 +1,12 @@
+<form (ngSubmit)="addUser()">
+  <input type="text" name="name" [(ngModel)]="newUser.name" placeholder="Name"/>
+  <input type="text" name="username" [(ngModel)]="newUser.username" placeholder="Username"/>
+  <input type="email" name="email" [(ngModel)]="newUser.email" placeholder="Email"/>
+  <input type="tel" name="phone" [(ngModel)]="newUser.phone" placeholder="Phone"/>
+  <input type="text" name="street" [(ngModel)]="newUser.address.street" placeholder="Street"/>
+  <input type="text" name="city" [(ngModel)]="newUser.address.city" placeholder="City"/>
+  <input type="text" name="zipcode" [(ngModel)]="newUser.address.zipcode" placeholder="Zipcode"/>
+  <input type="text" name="company" [(ngModel)]="newUser.company.name" placeholder="Company"/>
+  <input type="text" name="website" [(ngModel)]="newUser.website" placeholder="Website"/>
+  <button type="submit">Add User</button>
+</form>

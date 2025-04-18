@@ -191,6 +191,22 @@
         "name": "Innovix"
       },
       "website": "fatma.codes"
+    },
+    {
+      "id": "12df",
+      "name": "Ali Sherif",
+      "username": "ali_sherif",
+      "email": "ali@example.com",
+      "phone": "01122223333",
+      "address": {
+        "street": "El-Mohandessin St.",
+        "city": "Giza",
+        "zipcode": "12345"
+      },
+      "company": {
+        "name": "TechWave"
+      },
+      "website": "ali.dev"
     }
   ]
 }
