@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { UsersService } from '../../services/users.service';
 
 @Component({
@@ -23,7 +23,11 @@ export class UserItemComponent {
   };
   @Output() userDeleted = new EventEmitter<string>();
 
-  constructor(private usersService: UsersService) {}
+  constructor(private usersService: UsersService, private router: Router) {}
+
+  editUser() {
+    this.router.navigate(['/users/edit', this.user.id]);
+  }
 
   deleteUser() {
     if (confirm(`Are you sure you want to delete ${this.user.name}?`)) {

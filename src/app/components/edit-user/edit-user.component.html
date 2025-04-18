@@ -1,0 +1,13 @@
+<form *ngIf="user" (ngSubmit)="updateUser()">
+  <input type="text" name="name" [(ngModel)]="user.name" placeholder="Name"/>
+  <input type="text" name="username" [(ngModel)]="user.username" placeholder="Username"/>
+  <input type="email" name="email" [(ngModel)]="user.email" placeholder="Email"/>
+  <input type="tel" name="phone" [(ngModel)]="user.phone" placeholder="Phone"/>
+  <input type="text" name="street" [(ngModel)]="user.address.street" placeholder="Street"/>
+  <input type="text" name="city" [(ngModel)]="user.address.city" placeholder="City"/>
+  <input type="text" name="zipcode" [(ngModel)]="user.address.zipcode" placeholder="Zipcode"/>
+  <input type="text" name="company" [(ngModel)]="user.company.name" placeholder="Company"/>
+  <input type="text" name="website" [(ngModel)]="user.website" placeholder="Website"/>
+  <button type="submit">Update User</button>
+</form>
+  

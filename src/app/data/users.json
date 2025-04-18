@@ -9,7 +9,7 @@
       "address": {
         "street": "El-Malek Faisal St.",
         "city": "Giza",
-        "zipcode": "12345"
+        "zipcode": "6789"
       },
       "company": {
         "name": "NileSoft"
@@ -179,7 +179,7 @@
     {
       "id": "12df",
       "name": "Ali Sherif",
-      "username": "ali_sherif",
+      "username": "ali_sherif_123",
       "email": "ali@example.com",
       "phone": "01122223333",
       "address": {

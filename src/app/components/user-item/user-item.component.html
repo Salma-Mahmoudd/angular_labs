@@ -6,7 +6,7 @@
     <a routerLink="/users/{{ user.id }}">{{ user.email }}</a>
   </p>
   <div class="user-actions">
-    <button class="edit-button" type="button">Edit</button>
+    <button class="edit-button" type="button" (click)="editUser()">Edit</button>
     <button class="del-button" type="button" (click)="deleteUser()">
       Delete
     </button>
