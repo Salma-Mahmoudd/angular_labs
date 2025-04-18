@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ahmed Hassan",
+      "username": "ahmed_h",
+      "email": "ahmed@example.com",
+      "phone": "01012345678",
+      "address": {
+        "street": "El-Malek Faisal St.",
+        "city": "Giza",
+        "zipcode": "12345"
+      },
+      "company": {
+        "name": "NileSoft"
+      },
+      "website": "ahmed.dev"
+    },
+    {
+      "id": 2,
+      "name": "Salma Youssef",
+      "username": "salma_y",
+      "email": "salma@example.com",
+      "phone": "01098765432",
+      "address": {
+        "street": "Al-Nasr St.",
+        "city": "Cairo",
+        "zipcode": "54321"
+      },
+      "company": {
+        "name": "TechVision"
+      },
+      "website": "salma.codes"
+    },
+    {
+      "id": 3,
+      "name": "Omar Farouk",
+      "username": "omar_f",
+      "email": "omar@example.com",
+      "phone": "01122334455",
+      "address": {
+        "street": "Tahrir Sq.",
+        "city": "Cairo",
+        "zipcode": "11111"
+      },
+      "company": {
+        "name": "NextWare"
+      },
+      "website": "omarfarouk.dev"
+    },
+    {
+      "id": 4,
+      "name": "Mona Adel",
+      "username": "mona_adel",
+      "email": "mona@example.com",
+      "phone": "01234567890",
+      "address": {
+        "street": "El-Nozha St.",
+        "city": "Alexandria",
+        "zipcode": "32145"
+      },
+      "company": {
+        "name": "CodeFlare"
+      },
+      "website": "mona.io"
+    },
+    {
+      "id": 5,
+      "name": "Khaled Mostafa",
+      "username": "khaled_m",
+      "email": "khaled@example.com",
+      "phone": "01044556677",
+      "address": {
+        "street": "Al-Maadi St.",
+        "city": "Cairo",
+        "zipcode": "11811"
+      },
+      "company": {
+        "name": "SmartApps"
+      },
+      "website": "khaled.dev"
+    },
+    {
+      "id": 6,
+      "name": "Nour Ibrahim",
+      "username": "nour_ibrahim",
+      "email": "nour@example.com",
+      "phone": "01233445566",
+      "address": {
+        "street": "Stanley Rd.",
+        "city": "Alexandria",
+        "zipcode": "21500"
+      },
+      "company": {
+        "name": "BrightCode"
+      },
+      "website": "nouribrahim.com"
+    },
+    {
+      "id": 7,
+      "name": "Youssef Tamer",
+      "username": "youssef_t",
+      "email": "youssef@example.com",
+      "phone": "01155667788",
+      "address": {
+        "street": "El-Obour St.",
+        "city": "Mansoura",
+        "zipcode": "35711"
+      },
+      "company": {
+        "name": "CreativeBits"
+      },
+      "website": "yt.dev"
+    },
+    {
+      "id": 8,
+      "name": "Aya Elmasry",
+      "username": "aya_masry",
+      "email": "aya@example.com",
+      "phone": "01299887766",
+      "address": {
+        "street": "Gleem St.",
+        "city": "Alexandria",
+        "zipcode": "22111"
+      },
+      "company": {
+        "name": "PixelHub"
+      },
+      "website": "aya.codes"
+    },
+    {
+      "id": 9,
+      "name": "Mahmoud Gamal",
+      "username": "mahmoud_g",
+      "email": "mahmoud@example.com",
+      "phone": "01010101010",
+      "address": {
+        "street": "Sheikh Zayed Rd.",
+        "city": "Giza",
+        "zipcode": "12656"
+      },
+      "company": {
+        "name": "CloudNile"
+      },
+      "website": "mahmoud.dev"
+    },
+    {
+      "id": 10,
+      "name": "Laila Kamal",
+      "username": "laila_k",
+      "email": "laila@example.com",
+      "phone": "01111111111",
+      "address": {
+        "street": "Nasr City",
+        "city": "Cairo",
+        "zipcode": "11371"
+      },
+      "company": {
+        "name": "DreamApps"
+      },
+      "website": "lailak.com"
+    },
+    {
+      "id": 11,
+      "name": "Hassan Nabil",
+      "username": "hassan_n",
+      "email": "hassan@example.com",
+      "phone": "01200000000",
+      "address": {
+        "street": "El Rehab",
+        "city": "New Cairo",
+        "zipcode": "11841"
+      },
+      "company": {
+        "name": "CyberEdge"
+      },
+      "website": "hassannabil.dev"
+    },
+    {
+      "id": 12,
+      "name": "Fatma Ayman",
+      "username": "fatma_ayman",
+      "email": "fatma@example.com",
+      "phone": "01099999999",
+      "address": {
+        "street": "Mostafa Kamel St.",
+        "city": "Ismailia",
+        "zipcode": "41511"
+      },
+      "company": {
+        "name": "Innovix"
+      },
+      "website": "fatma.codes"
+    }
+  ]
+}

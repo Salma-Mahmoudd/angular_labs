@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class UsersService {
-  private URL = 'https://jsonplaceholder.typicode.com/users';
+  private URL = 'http://localhost:3000/users';
 
   constructor(private http: HttpClient) {}
 
