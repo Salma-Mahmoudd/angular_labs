@@ -13,7 +13,7 @@ export class UsersService {
     return this.http.get(this.URL);
   }
 
-  getUserById(id: number) {
+  getUserById(id: string) {
     return this.http.get(`${this.URL}/${id}`);
   }
 
@@ -21,11 +21,11 @@ export class UsersService {
     return this.http.post(this.URL, user);
   }
 
-  updateUser(id: number, user: any) {
+  updateUser(id: string, user: any) {
     return this.http.put(`${this.URL}/${id}`, user);
   }
 
-  deleteUser(id: number) {
+  deleteUser(id: string) {
     return this.http.delete(`${this.URL}/${id}`);
   }
 }

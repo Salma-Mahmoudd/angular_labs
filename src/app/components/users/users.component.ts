@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
 })
 export class UsersComponent {
   users: {
-    id: number;
+    id: string;
     name: string;
     username: string;
     email: string;
@@ -37,5 +37,9 @@ export class UsersComponent {
         console.log('Request completed');
       },
     });
+  }
+
+  handleUserDeleted(userId: string) {
+    this.users = this.users.filter((user) => user.id !== userId);
   }
 }

@@ -10,7 +10,7 @@ import { UsersService } from '../../services/users.service';
   styleUrl: './user-details.component.css',
 })
 export class UserDetailsComponent {
-  userId = 0;
+  userId = '';
   user: any;
 
   constructor(

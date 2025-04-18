@@ -22,3 +22,29 @@
 .user-card a:hover {
   text-decoration: underline;
 }
+
+.user-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.user-actions button {
+  background-color: #dfdedec6;
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.user-actions .del-button:hover {
+  background-color: #c82333;
+  color: #fff;
+}
+
+.user-actions .edit-button:hover {
+  background-color: #cfcfcfc6;
+  color: #000;
+}

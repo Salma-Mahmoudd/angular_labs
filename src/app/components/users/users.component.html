@@ -3,6 +3,9 @@
 </div>
 <section class="users-container">
   @for (user of users; track user.id) {
-  <app-user-item [user]="user"></app-user-item>
+  <app-user-item
+    [user]="user"
+    (userDeleted)="handleUserDeleted($event)"
+  ></app-user-item>
   }
 </section>
